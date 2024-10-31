@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 70%; /* Updated: removed commas between percentages */
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: darkslategrey;
+    background-color: transparent;
+
+  }
