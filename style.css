@@ -36,9 +36,7 @@ ul {
     font-size: 21px;
   }
 
-  .side_list a {
-    margin-bottom: -5px; /* Space below each link */
-    display: block; /* Make each link a block element so margin works */
-    text-decoration: none; /* Optional: removes underline from links */
-    color: #000; /* Optional: sets link color */
+
+.headings{
+  font-size: 24px;
 }
