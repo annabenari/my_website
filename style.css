@@ -1,34 +1,54 @@
+
+
+@font-face {
+  font-family: diatype;
+  src: url(./abc-diatype-regular.otf);
+}
+
 body {
-  font-family: 'Trebuchet MS', serif; /* Using a fallback font */
+  font-family: 'diatype', serif; /* Using a fallback font */
+  color: rgba(0, 0, 0, 0.75);
+  overflow-x: hidden;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 30% 60%; /* Updated: removed commas between percentages */
+    grid-template-columns: 30% 70%; /* Updated: removed commas between percentages */
     padding: 10px;
     /* border-style: solid;
     border-width: 2px; */
 }
 
+hr{
+  width:100%;
+  text-align:left;margin-left:0
+}
 .headings-1{
  margin-top: 0%;
 }
 
-
+.me{
+width: 35%;
+float: right;
+padding-left: 20px;
+padding-bottom: 20px;
+}
 
 #content{
   padding-left: 50px;
+  font-size: 18px;
 }
 
 #right-section{
   padding-left: 50px;
+  padding-right: 20px;
 }
 ul {
     list-style-type: none;
   }
 
   a:link {
-    color: black;
+    color: rgba(0, 0, 0, 0.75);
     background-color: transparent;
     text-decoration: none;
   }
@@ -46,7 +66,7 @@ ul {
   }
 
   .side_list{
-    font-size: 21px;
+    font-size: 25px;
   }
 
 
