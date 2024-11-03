@@ -4,12 +4,25 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 30% 70%; /* Updated: removed commas between percentages */
+    grid-template-columns: 30% 60%; /* Updated: removed commas between percentages */
     padding: 10px;
-    border-style: solid;
-    border-width: 2px;
+    /* border-style: solid;
+    border-width: 2px; */
 }
 
+.headings-1{
+ margin-top: 0%;
+}
+
+
+
+#content{
+  padding-left: 50px;
+}
+
+#right-section{
+  padding-left: 50px;
+}
 ul {
     list-style-type: none;
   }
@@ -37,6 +50,6 @@ ul {
   }
 
 
-.headings{
+.headings-2{
   font-size: 24px;
 }
