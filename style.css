@@ -20,11 +20,19 @@ body {
 }
 
 hr{
-  width:100%;
-  text-align:left;margin-left:0
+  width:90%;
+  
 }
 .headings-1{
  margin-top: 0%;
+}
+
+.links:hover{
+  color: orange;
+}
+
+.images{
+  width: 33%;
 }
 
 .me{
