@@ -89,3 +89,13 @@ document
       curatorialList.style.display = "none"; // Hide the list again
     }
   });
+
+document.addEventListener("DOMContentLoaded", () => {
+  // Close lightbox when clicking anywhere outside the image
+  const lightboxes = document.querySelectorAll(".lightbox");
+  lightboxes.forEach((lightbox) => {
+    lightbox.addEventListener("click", () => {
+      lightbox.style.display = "none";
+    });
+  });
+});
