@@ -83,17 +83,14 @@ ul {
   font-size: 24px;
 }
 
-.play-build-play{
+.play-build-play , .wysing-images , .ely-museum , .fitz-2023, .ely-market{
   width: 30%;
-  padding: 1%;
-  float: right;
+  padding-right: 1%;
+  padding-left: 0;
+  padding-bottom: 1%;
+  /* float: right; */
 }
 
-
-.wysing-images{
-  width: 30%;
-  padding: 1%;
-}
 
 .imageContainer {
   display: none; /* Initially hidden */
