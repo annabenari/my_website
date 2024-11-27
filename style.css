@@ -111,3 +111,9 @@ ul {
 }
 
 .toggleButton:hover {opacity: 1}
+
+
+#curatorialList{
+  display: none;
+  font-size: 18px;
+}
