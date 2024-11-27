@@ -47,16 +47,31 @@ const contentData = {
   <h2>Creative Facilitation</h2>
     <h4>Print Making Workshop, Wysing Art Centre - November 2024</h4>
     <p>This session was a hands-on workshop focused on creative printmaking with natural elements. Participants explored basic techniques using found objects from nature, encouraging creativity and experimentation in a supportive environment.</p>
+
+    <button class="toggleButton">Pictures</button>
+    <div class="imageContainer">
     <img class="wysing-images" src="../wysing-art-centre-1/1.JPG" alt="">
     <img class="wysing-images" src="../wysing-art-centre-1/2.JPG" alt="">
     <img class="wysing-images" src="../wysing-art-centre-1/6.JPG" alt="">
- 
+    </div>
+
     <br>
 
     <h4>'Play, Build Play', Fitzwilliam Museum - August 2024</h4>
     <p>
       As facilitator of the Summer Play Pavilion, I engaged with families to foster an inviting and playful environment. I guided participants in exploring the curated collection of loose parts, encouraging creative play, collaboration, and the development of their own sporting and cultural activities.
     </p>
+
+    <button class="toggleButton">Pictures</button>
+    <div class="imageContainer">
+    <img class="play-build-play" src="../play-build-play/1.png" alt="">
+    <img class="play-build-play" src="../play-build-play/2.png" alt="">
+    <img class="play-build-play" src="../play-build-play/3.png" alt="">
+    </div>
+
+
+  
+    </div>
   <br>
     <h4>Fermynwoods</h4>
     <p>
@@ -98,3 +113,48 @@ document.querySelectorAll("[data-content]").forEach((link) => {
     contentDiv.innerHTML = contentData[contentKey];
   });
 });
+
+// Function to initialize toggle buttons
+function initializeToggleButtons() {
+  // Select all toggle buttons
+  const toggleButtons = document.querySelectorAll(".toggleButton");
+
+  toggleButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      // Find the associated image container (next sibling in this case)
+      const imageContainer = this.nextElementSibling;
+
+      if (imageContainer) {
+        // Toggle visibility of the image container
+        if (
+          imageContainer.style.display === "none" ||
+          imageContainer.style.display === ""
+        ) {
+          imageContainer.style.display = "block"; // Show the images
+          button.textContent = "Hide Images"; // Change button text
+        } else {
+          imageContainer.style.display = "none"; // Hide the images
+          button.textContent = "Show Images"; // Change button text
+        }
+      }
+    });
+  });
+}
+
+// Attach event listeners to links and dynamically reload content
+document.querySelectorAll("[data-content]").forEach((link) => {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    const contentKey = this.getAttribute("data-content");
+    const contentDiv = document.getElementById("content");
+
+    // Update the content div with the selected section's content
+    contentDiv.innerHTML = contentData[contentKey];
+
+    // Re-initialize toggle buttons for newly added content
+    initializeToggleButtons();
+  });
+});
+
+// Call this function to activate buttons initially
+initializeToggleButtons();

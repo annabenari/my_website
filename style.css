@@ -9,6 +9,7 @@ body {
   font-family: 'diatype', serif; /* Using a fallback font */
   color: rgba(0, 0, 0, 0.75);
   overflow-x: hidden;
+  background-color: #FFFDF2;
 }
 
 .grid-container {
@@ -83,12 +84,33 @@ ul {
 }
 
 .play-build-play{
-  width: 35%;
-  padding: 0%;
+  width: 30%;
+  padding: 1%;
   float: right;
 }
 
 
 .wysing-images{
   width: 30%;
+  padding: 1%;
 }
+
+.imageContainer {
+  display: none; /* Initially hidden */
+}
+
+.toggleButton{
+  background-color:#FFFDF2;
+  border: #FFFDF2;
+  font-size: 20px;
+  width: 100%;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+ 
+}
+
+.toggleButton:hover {opacity: 1}
