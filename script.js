@@ -80,13 +80,19 @@ const contentData = {
     </p>
     </section>
     <br>
+    <h4>Ely Museum - November 2023 </h4>
+    <p>Info</p>
+    <button class="toggleButton">Pictures</button>
+    <div class="imageContainer">
+    <img class="play-build-play" src="../ely-museam/1.png" alt="">
+    <img class="play-build-play" src="../ely-museam/2.png" alt="">
+    <img class="play-build-play" src="../ely-museam/3.png" alt="">
+    </div>
+    <br>
     <h4>Fitzwilliam Museum - February 2023 </h4>
     <p>
       For SOURCE, I conducted an interactive workshop for GCSE, A-Level, BTEC, and Foundation Art & Design students, introducing them to Tagtool, a digital tool for live, collaborative digital art creation. I demonstrated its features and guided students in a collaborative project, encouraging them to experiment with their own ideas and contribute to the collective artwork.
     </p>
-    <br>
-    <h4>Ely Museum</h4>
-    <p>Info</p>
     <br>
     <h4>Fitzwilliam Museum - February 2022 </h4>
     <p>
