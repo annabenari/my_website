@@ -91,6 +91,20 @@ ul {
   /* float: right; */
 }
 
+.spotted-in-ely{
+  width: 40%;
+  padding-right: 1%;
+  padding-left: 0;
+  padding-bottom: 1%;
+  float: left;
+}
+
+.references{
+  font-style: italic;
+
+}
+
+
 .bb{
   width: 48%;
   padding-right: 1%;

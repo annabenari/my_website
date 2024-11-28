@@ -1,12 +1,6 @@
 export const bbContent = {
   bb: `<h1>Blossoms & Brushstrokes Exhibition </h1>
 
-  <button class="toggleButton">Call Out and Poster</button>
-  <div class="imageContainer">
-  <img class="bb" src="../bb/callout.jpg" alt="">
-  <img class="bb" src="../bb/poster.jpg" alt="">
-  </div>
-
   <p>
       I created an exhibition titled <strong>"Blossoms & Brushstrokes"</strong>, which featured the work of young emerging artists aged 16-25 from East Anglia, offering them a platform to showcase their artwork and gain valuable exposure. Alongside their work, I exhibited my own pieces, which explored themes of nature, femininity, and human expression, central to my artistic practice.
   </p>
