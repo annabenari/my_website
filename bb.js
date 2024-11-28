@@ -1,6 +1,12 @@
 export const bbContent = {
   bb: `<h1>Blossoms & Brushstrokes Exhibition </h1>
 
+  <button class="toggleButton">Call Out and Poster</button>
+  <div class="imageContainer">
+  <img class="bb" src="../bb/callout.jpg" alt="">
+  <img class="bb" src="../bb/poster.jpg" alt="">
+  </div>
+
   <p>
       I created an exhibition titled <strong>"Blossoms & Brushstrokes"</strong>, which featured the work of young emerging artists aged 16-25 from East Anglia, offering them a platform to showcase their artwork and gain valuable exposure. Alongside their work, I exhibited my own pieces, which explored themes of nature, femininity, and human expression, central to my artistic practice.
   </p>
@@ -35,6 +41,13 @@ export const bbContent = {
       Overall, <strong>Blossoms & Brushstrokes</strong> was a successful exhibition that not only showcased the work of young artists but also provided a meaningful and engaging experience for the public. It gave me valuable insight into the complexities of curating, managing an exhibition, and fostering collaborative relationships within the art community. The support I received through the Norwich & Norfolk Festival bursary was instrumental in making the event a success, and I look forward to building on this experience in future curatorial projects.
   </p>
   
+
+  <button class="toggleButton">Call Out and Poster</button>
+  <div class="imageContainer">
+  <img class="bb" src="../bb/callout.jpg" alt="">
+  <img class="bb" src="../bb/poster.jpg" alt="">
+  </div>
+
   <div class="image-gallery">
   ${Array.from(
     { length: 42 },

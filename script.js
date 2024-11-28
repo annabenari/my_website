@@ -48,7 +48,7 @@ function initializeToggleButtons() {
           button.textContent = "Hide"; // Change button text
         } else {
           imageContainer.style.display = "none"; // Hide the images
-          button.textContent = "Pictures"; // Change button text
+          button.textContent = "Show"; // Change button text
         }
       }
     });
