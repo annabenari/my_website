@@ -208,3 +208,11 @@ ul {
 .lightbox:target {
   display: flex;
 }
+
+.current, .the-house{
+  width: 40%;
+  padding-right: 1%;
+  padding-left: 0;
+  padding-bottom: 1%;
+  float: left;
+}
