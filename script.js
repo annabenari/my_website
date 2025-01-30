@@ -5,7 +5,9 @@ import { bbContent } from "./bb.js";
 import { theHouseContent } from "./the-house.js";
 import { facilitationContent } from "./facilitation.js";
 import { webContent } from "./web.js";
-import { current } from "./current.js";
+import { current_tlp } from "./tlp.js";
+import { current_metamorphosis } from "./metamorphosis.js";
+import { current_speech } from "./good_nugget.js";
 
 const contentData = {
   about: aboutContent.about,
@@ -15,7 +17,9 @@ const contentData = {
   theHouse: theHouseContent.theHouse,
   facilitation: facilitationContent.facilitation,
   web: webContent.web,
-  current: current.current,
+  current_tlp: current_tlp.current_tlp,
+  current_metamorphosis: current_metamorphosis.current_metamorphosis,
+  current_speech: current_speech.current_speech,
 };
 
 // Function to load content dynamically
