@@ -8,6 +8,7 @@ import { webContent } from "./web.js";
 import { current_tlp } from "./tlp.js";
 import { current_metamorphosis } from "./metamorphosis.js";
 import { current_speech } from "./good_nugget.js";
+import { blog } from "./blog.js";
 
 const contentData = {
   about: aboutContent.about,
@@ -20,6 +21,7 @@ const contentData = {
   current_tlp: current_tlp.current_tlp,
   current_metamorphosis: current_metamorphosis.current_metamorphosis,
   current_speech: current_speech.current_speech,
+  blog: blog.blog,
 };
 
 // Function to load content dynamically
