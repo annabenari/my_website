@@ -12,6 +12,10 @@ body {
   background-color: #FFFDF2;
 }
 
+.sizeAnna{
+  font-size: 30px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 30% 70%; /* Updated: removed commas between percentages */
@@ -24,13 +28,17 @@ hr{
   width:95%;
   
 }
-.headings-1{
- margin-top: 0%;
+
+.webhr{
+width: 100%;
 }
 
-.links:hover{
-  color: orange;
+.headings-1{
+ margin-top: 0%;
+ color: darkgrey;
 }
+
+
 
 .images{
   width: 45%;
@@ -63,13 +71,13 @@ ul {
   }
   
   a:visited {
-    color: black;
+    color: darkslategray;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: darkslategrey;
+    color: darkorange;
     background-color: transparent;
 
   }
@@ -77,10 +85,27 @@ ul {
   .side_list{
     font-size: 25px;
   }
-
+  .side_list a {
+    color: darkslategray; /* Same as global link colour */
+    text-decoration: none;
+  }
+  
+  .side_list a:visited {
+    color: darkslategray; /* Same visited link colour */
+  }
+  
+  .side_list a:hover {
+    color: darkorange; /* Same hover effect */
+  }
 
 .headings-2{
   font-size: 24px;
+  color: grey;
+  /* text-decoration: underline;
+  text-decoration-style:double; */
+
+
+
 }
 
 .play-build-play , .wysing-images , .ely-museum , .fitz-2023, .ely-market{

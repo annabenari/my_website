@@ -10,7 +10,7 @@ export const webContent = {
       </p>
     </article>
   </section>
-
+  <hr class="webhr">
   <section>
     <article>
       <h3>Udemy Python Course</h3>
@@ -22,7 +22,7 @@ export const webContent = {
       </p>
     </article>
   </section>
-
+  <hr class="webhr">
   <section>
     <article>
       <h3>Udemy JavaScript Course</h3>
@@ -34,7 +34,7 @@ export const webContent = {
       </p>
     </article>
   </section>
-
+  <hr class="webhr">
   <section>
     <article>
       <h3>Client Website</h3>
@@ -43,25 +43,36 @@ export const webContent = {
       </p>
     </article>
   </section>
-
+  <hr class="webhr">
   <section>
+  <article>
+  <h3>Northcoders</h3>
+  <p>This is where I did a 3 month course on software dev, See the course details:</p>
+  <a href="https://northcoders.com/our-courses/coding-bootcamp" target="_blank" class="link-reference">Click here</a>
+  </article>
     <article>
-      <h3>BotaniBuddy App (Back-End)</h3>
+      <h4>BotaniBuddy App (Back-End)</h4>
       <p>Check out the repository:
         <a href="https://github.com/annabenari/BotaniBuddy-BE" target="_blank" class="link-reference">Click here</a>
       </p>
     </article>
-  </section>
-
-  <section>
     <article>
-      <h3>BotaniBuddy App (Front-End)</h3>
-      <p>Check out the repository:
-        <a href="https://github.com/annabenari/BotaniBuddy-FE" target="_blank" class="link-reference">Click here</a>
-      </p>
-    </article>
+    <h4>BotaniBuddy App (Front-End)</h4>
+    <p>Check out the repository:
+      <a href="https://github.com/annabenari/BotaniBuddy-FE" target="_blank" class="link-reference">Click here</a>
+    </p>
+  </article>
   </section>
-
+  <hr class="webhr">
+  <section>
+  <article>
+    <h3>Skills Edx</h3>
+    <p>See the course details:
+      <a href="https://www.edx.org/certificates/professional-certificate/w3cx-front-end-web-developer" target="_blank" class="link-reference">Click here</a>
+    </p>
+  </article>
+</section>
+<hr class="webhr">
   <section>
     <article>
       <h3>Code First Girls Course</h3>
@@ -69,20 +80,14 @@ export const webContent = {
         <a href="https://codefirstgirls.com/" target="_blank" class="link-reference">Click here</a>
       </p>
     </article>
-  </section>
-
-  <section>
     <article>
-      <h3>HTML & CSS Practice Task (Code First Girls)</h3>
-      <p>Check out my repository:
-        <a href="https://github.com/annabenari/ck24ukh2" target="_blank" class="link-reference">Click here</a>
-      </p>
-    </article>
+    <h4>HTML & CSS Practice Task (Code First Girls)</h4>
+    <p>Check out my repository:
+      <a href="https://github.com/annabenari/ck24ukh2" target="_blank" class="link-reference">Click here</a>
+    </p>
+  </article>
   </section>
-
-
-
-
-  
+  <hr class="webhr">
+ 
   `,
 };
