@@ -242,9 +242,49 @@ ul {
   float: left;
 }
 
+#menuToggle{
+  display: none;
+}
 
 
+@media (max-width: 768px) {
+  .grid-container {
+    display: block; /* Stack elements instead of grid */
+  }
 
+  .side_list {
+    display: none; /* Hide sidebar initially */
+  }
 
+  .menu-button {
+    display: block; /* Show menu button */
+    width: 75%;
+    margin: auto;
+    background-color: #FFFDF2;
+    border: 1px solid darkgray;
+    transition-duration: 0.4s;
+ font-size: 20px;
+    padding: 10px; 
+    text-align: center; /* Center text */
+}
 
+.menu-button:hover {
+    background-color: #FFFDF2;
+    color: darkorange;
+}
 
+  #menuToggle{
+    display: block;
+    
+  }
+
+  #content {
+    padding-left: 0; /* Remove left padding */
+    width: 100%; /* Make content take full width */
+  }
+
+  .side_list.show {
+    display: block; /* Show sidebar when toggled */
+    width: 100%;
+  }
+}

@@ -107,3 +107,30 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("img").addEventListener("click", function () {
+    const image1 = "./homePage/homePageOne.png";
+    const image2 = "./homePage/homePageTwo.png";
+
+    this.src = this.src.includes("homePageOne.png") ? image2 : image1;
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("menuToggle");
+  const sidebar = document.querySelector(".side_list");
+  const contentDiv = document.getElementById("content");
+  const menuLinks = document.querySelectorAll(".side_list a");
+
+  menuButton.addEventListener("click", function () {
+    sidebar.classList.toggle("show");
+  });
+
+  // Hide sidebar when a menu item is clicked
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      sidebar.classList.remove("show");
+    });
+  });
+});
