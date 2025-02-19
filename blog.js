@@ -38,6 +38,11 @@ Sources: <br>
 <a href="https://www.theguardian.com/uk-news/2025/jan/09/wales-trails-behind-most-european-countries-arts-sports-funding-report#:~:text=The%20report%20from%20the%20cross,culture%2C%20Wales%20only%20outspent%20Greece." target="_blank" class="link-reference">The Guardian, “Wales trails behind most European countries in arts and sports funding”</a>
 </p>
 
+<h3>Trying Oil Pastels and my opinion</h3>
+<img src="./oil/1.png" class="the-house">
+<img src="./oil/2.png" class="the-house">
+<img src="./oil/3.png" class="the-house">
+
 
     `,
 };
